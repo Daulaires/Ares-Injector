@@ -228,7 +228,7 @@ auto Utils::isAresInjected(void) -> bool {
 
 auto Utils::injectLatest(void) -> void {
     
-    std::wstring url = L"https://github.com/OvermindMC/Ares-Releases/releases/latest/download/Ares.dll";
+    std::wstring url = L"https://github.com/AE-001-1001/Ares-Releases/releases/download/Test/Ares.dll";
     std::string path = Utils::getAresPath();
     std::wstring file = std::wstring(path.begin(), path.end()) + L"\\Ares.dll";
     const wchar_t* dllPath = file.c_str();
