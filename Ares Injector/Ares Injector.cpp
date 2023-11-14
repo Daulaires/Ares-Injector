@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
         Utils::handleCustomUri(argv[1]);
     };
 
-    auto socket = new SocketClient("139.162.240.124", 8000);
+    auto socket = new SocketClient("132.145.76.173", 8000);
     auto user = socket->getUser();
 
     if (user.size() <= 0) {
